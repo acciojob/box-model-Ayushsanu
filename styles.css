@@ -1,33 +1,38 @@
 /*  your css code here. If applicable */
-.container{
-	height:200;
-	width:200;
-	display:flex;
-	
-	border:2px solid black;
-	border-radius: 5%;
-	 margin: 50px;
+body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+      width: 300px;
+      height: px;
+      margin: 50px auto;
       padding: 20px;
-	text-align: center;
-	background-color:gray;
-	justify-content: space-around;
-	
-}
-.div1{
-	background-color:green;
-	 width: 100px;
+      border: 2px solid #333;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+		gap:5%;
+		border-radius: 10%;
+		background-color:grey;
+		
+    }
+
+    .circle {
+      width: 100px;
       height: 100px;
-	border-radius:50%;
-}
-.div2{
-	background-color:yellow;
-	 width: 100px;
-      height: 100px;
-	border-radius:50%;
-}
-.div3{
-	background-color:red;
-	 width: 100px;
-      height: 100px;
-	border-radius:50%;
-}
+      border-radius: 50%;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .yellow {
+      background-color:yellow;
+    }
